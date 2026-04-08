@@ -7,24 +7,29 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial;
+      font-family: Arial, sans-serif;
+      background: #fff;
       text-align: center;
     }
 
     header {
       background: linear-gradient(135deg, #ffcc00, #ff6600);
-      padding: 40px 20px;
+      padding: 60px 20px;
       color: white;
     }
 
     header img {
-      width: 120px;
-      margin-top: 15px;
+      width: 150px;
+      margin-top: 20px;
+    }
+
+    h2 {
+      margin-top: 40px;
     }
 
     .products {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
       gap: 20px;
       padding: 30px;
     }
@@ -33,20 +38,23 @@
       background: #f9f9f9;
       border-radius: 15px;
       padding: 15px;
-      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+      font-weight: bold;
     }
 
     .card img {
       width: 100%;
+      height: 120px;
+      object-fit: cover;
       border-radius: 10px;
     }
 
     .brand-box {
       display: inline-block;
       margin: 10px;
-      padding: 10px 20px;
+      padding: 12px 25px;
       background: #eee;
-      border-radius: 10px;
+      border-radius: 12px;
       font-weight: bold;
     }
 
@@ -54,8 +62,10 @@
       background: green;
       color: white;
       padding: 15px 25px;
-      border-radius: 10px;
+      border-radius: 12px;
       text-decoration: none;
+      display: inline-block;
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -64,10 +74,10 @@
 
 <header>
   <h1>🍬 Mocoblue</h1>
-  <p>Bulk Candy Supplier | High Margin</p>
+  <p>Bulk Candy Supplier | High Margin Products</p>
 
-  <!-- Cartoon Image -->
-  <img src="https://cdn-icons-png.flaticon.com/512/3081/3081985.png">
+  <!-- Cartoon Character -->
+  <img src="https://cdn-icons-png.flaticon.com/512/3050/3050154.png" alt="candy cartoon">
 </header>
 
 <h2>Our Products</h2>
@@ -75,23 +85,33 @@
 <section class="products">
 
   <div class="card">
-    <img src="https://cdn-icons-png.flaticon.com/512/590/590685.png">
+    <img src="https://images.unsplash.com/photo-1582058091505-f87a2e55a40f">
     Mango Candy
   </div>
 
   <div class="card">
-    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png">
+    <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505">
     Imli Candy
   </div>
 
   <div class="card">
-    <img src="https://cdn-icons-png.flaticon.com/512/685/685352.png">
+    <img src="https://images.unsplash.com/photo-1606312619344-92c9fcd3e6d2">
     Cola Candy
   </div>
 
   <div class="card">
-    <img src="https://cdn-icons-png.flaticon.com/512/590/590682.png">
+    <img src="https://images.unsplash.com/photo-1599785209707-28f9c3d7b7f3">
     Strawberry Candy
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1604908554165-3d8c9e3e1c5c">
+    Orange Candy
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1612197594308-9a0d2d7c1d88">
+    Grape Candy
   </div>
 
 </section>
@@ -100,12 +120,12 @@
 
 <div class="brand-box">Sweetking</div>
 <div class="brand-box">Chintoo</div>
-<div class="brand-box">Other Brands</div>
+<div class="brand-box">Other Leading Brands</div>
 
-<br><br>
+<br>
 
 <a href="https://wa.me/91XXXXXXXXXX" class="btn">
-  Enquire on WhatsApp
+  🚀 Bulk Enquiry on WhatsApp
 </a>
 
 </body>
