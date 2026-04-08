@@ -7,8 +7,8 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial;
-      background: #fff;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
       text-align: center;
     }
 
@@ -20,7 +20,7 @@
 
     header h1 {
       margin: 0;
-      font-size: 40px;
+      font-size: 42px;
     }
 
     header p {
@@ -34,24 +34,28 @@
     }
 
     h2 {
-      margin-top: 40px;
-      font-size: 26px;
+      margin-top: 50px;
+      font-size: 28px;
     }
 
     .products {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
       gap: 20px;
       padding: 30px;
     }
 
     .card {
       border-radius: 20px;
-      padding: 20px;
+      padding: 15px;
       background: #f9f9f9;
-      box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
       transition: 0.3s;
       font-weight: bold;
+    }
+
+    .card img {
+      border-radius: 15px;
     }
 
     .card:hover {
@@ -87,6 +91,14 @@
       border-radius: 15px;
       text-decoration: none;
       font-size: 18px;
+      display: inline-block;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: #222;
+      color: white;
     }
 
   </style>
@@ -97,18 +109,43 @@
 <header>
   <h1>🍬 Mocoblue</h1>
   <p>Bulk Candy Supplier | High Margin Products</p>
-  <div class="cartoon">🍭🍫🍬</div>
+  <div class="cartoon">🍭🍬🍫🍓🍊</div>
 </header>
 
 <h2>Our Products</h2>
 
 <section class="products">
-  <div class="card">🍭 Mango Candy</div>
-  <div class="card">🍬 Imli Candy</div>
-  <div class="card">🥤 Cola Candy</div>
-  <div class="card">🍓 Strawberry Candy</div>
-  <div class="card">🍊 Orange Candy</div>
-  <div class="card">🍇 Grape Candy</div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/150" width="100%">
+    🍭 Mango Candy
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/150" width="100%">
+    🍬 Imli Candy
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/150" width="100%">
+    🥤 Cola Candy
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/150" width="100%">
+    🍓 Strawberry Candy
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/150" width="100%">
+    🍊 Orange Candy
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/150" width="100%">
+    🍇 Grape Candy
+  </div>
+
 </section>
 
 <section class="brands">
@@ -123,6 +160,7 @@
   <p>✔ Direct supply from distributors</p>
   <p>✔ High margin products</p>
   <p>✔ Fast dispatch</p>
+  <p>✔ Bulk deals available</p>
 </section>
 
 <div class="cta">
@@ -130,6 +168,10 @@
     🚀 Bulk Enquiry on WhatsApp
   </a>
 </div>
+
+<footer>
+  <p>© 2026 Mocoblue | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
