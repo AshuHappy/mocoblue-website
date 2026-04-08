@@ -7,100 +7,56 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #ffffff;
+      font-family: Arial;
       text-align: center;
     }
 
     header {
       background: linear-gradient(135deg, #ffcc00, #ff6600);
-      padding: 60px 20px;
+      padding: 40px 20px;
       color: white;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 42px;
-    }
-
-    header p {
-      font-size: 18px;
-      margin-top: 10px;
-    }
-
-    .cartoon {
-      font-size: 60px;
+    header img {
+      width: 120px;
       margin-top: 15px;
-    }
-
-    h2 {
-      margin-top: 50px;
-      font-size: 28px;
     }
 
     .products {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 20px;
       padding: 30px;
     }
 
     .card {
-      border-radius: 20px;
-      padding: 15px;
       background: #f9f9f9;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-      transition: 0.3s;
-      font-weight: bold;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     }
 
     .card img {
-      border-radius: 15px;
-    }
-
-    .card:hover {
-      transform: translateY(-6px);
-    }
-
-    .brands {
-      padding: 30px;
+      width: 100%;
+      border-radius: 10px;
     }
 
     .brand-box {
       display: inline-block;
       margin: 10px;
-      padding: 12px 25px;
+      padding: 10px 20px;
       background: #eee;
-      border-radius: 15px;
+      border-radius: 10px;
       font-weight: bold;
-    }
-
-    .features {
-      padding: 20px;
-      font-size: 16px;
-    }
-
-    .cta {
-      margin: 40px;
     }
 
     .btn {
       background: green;
       color: white;
       padding: 15px 25px;
-      border-radius: 15px;
+      border-radius: 10px;
       text-decoration: none;
-      font-size: 18px;
-      display: inline-block;
     }
-
-    footer {
-      margin-top: 40px;
-      padding: 20px;
-      background: #222;
-      color: white;
-    }
-
   </style>
 </head>
 
@@ -108,8 +64,10 @@
 
 <header>
   <h1>🍬 Mocoblue</h1>
-  <p>Bulk Candy Supplier | High Margin Products</p>
-  <div class="cartoon">🍭🍬🍫🍓🍊</div>
+  <p>Bulk Candy Supplier | High Margin</p>
+
+  <!-- Cartoon Image -->
+  <img src="https://cdn-icons-png.flaticon.com/512/3081/3081985.png">
 </header>
 
 <h2>Our Products</h2>
@@ -117,61 +75,38 @@
 <section class="products">
 
   <div class="card">
-    <img src="https://via.placeholder.com/150" width="100%">
-    🍭 Mango Candy
+    <img src="https://cdn-icons-png.flaticon.com/512/590/590685.png">
+    Mango Candy
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/150" width="100%">
-    🍬 Imli Candy
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png">
+    Imli Candy
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/150" width="100%">
-    🥤 Cola Candy
+    <img src="https://cdn-icons-png.flaticon.com/512/685/685352.png">
+    Cola Candy
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/150" width="100%">
-    🍓 Strawberry Candy
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/150" width="100%">
-    🍊 Orange Candy
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/150" width="100%">
-    🍇 Grape Candy
+    <img src="https://cdn-icons-png.flaticon.com/512/590/590682.png">
+    Strawberry Candy
   </div>
 
 </section>
 
-<section class="brands">
-  <h2>Brands We Deal In</h2>
-  <div class="brand-box">Sweetking</div>
-  <div class="brand-box">Chintoo</div>
-  <div class="brand-box">Other Leading Brands</div>
-</section>
+<h2>Brands We Deal In</h2>
 
-<section class="features">
-  <h2>Why Choose Us</h2>
-  <p>✔ Direct supply from distributors</p>
-  <p>✔ High margin products</p>
-  <p>✔ Fast dispatch</p>
-  <p>✔ Bulk deals available</p>
-</section>
+<div class="brand-box">Sweetking</div>
+<div class="brand-box">Chintoo</div>
+<div class="brand-box">Other Brands</div>
 
-<div class="cta">
-  <a href="https://wa.me/8810443091" class="btn">
-    🚀 Bulk Enquiry on WhatsApp
-  </a>
-</div>
+<br><br>
 
-<footer>
-  <p>© 2026 Mocoblue | All Rights Reserved</p>
-</footer>
+<a href="https://wa.me/91XXXXXXXXXX" class="btn">
+  Enquire on WhatsApp
+</a>
 
 </body>
 </html>
